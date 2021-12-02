@@ -6,6 +6,20 @@
   overflow-wrap: break-word;
 }
 
+html p {
+  font-style: "Roboto", sans-serif;
+  font-size: 1.15rem;
+}
+
+html h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: rgb(61, 58, 58) !important;
+}
+
 *,
 *::before,
 *::after {
@@ -154,14 +168,14 @@ div.fgh-2 li {
   background: #111;
   overflow: hidden;
   position: fixed;
-  right: 115px;
+  right: 40px;
   top: 15px;
   background-color: #149ddd;
 }
 
 .mininavbar span {
   position: fixed;
-  right: 125px;
+  right: 50px;
   top: 25px;
 }
 
@@ -391,9 +405,7 @@ section.asd {
 
 div.container-4 img {
   width: 100px;
-  margin: 5px;
-  justify-content: center;
-  align-content: center;
+  margin: 40px;
 }
 
 div.container-4 {
@@ -553,7 +565,7 @@ h6 {
   z-index: 0.2;
   padding-bottom: 10px !important;
   margin-bottom: 15px;
-  height: 100vh;
+  height: fit-content;
 }
 
 section#curriculo p.nomi {
@@ -831,6 +843,14 @@ form input {
 
 textarea#comentarios {
   width: 100%;
+}
+
+ul.tiraisso {
+  list-style: none;
+}
+
+.paizao {
+  background: #1454dd !important;
 }
 
 /* media querry menu responsivo*/
